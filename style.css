@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapercave.com/wp/wp9194374.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+header {
+    background-color: #101111;
+    color: rgb(146, 150, 151);
+    padding: 15px;
+    text-align: right;
+}
+h1{
+    text-align: left;
+    color: #928e8e;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.hovereffects:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #928e8e;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.m {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(16, 15, 15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+h2, h5, h6,h4,h3, .color{
+    color: #928e8e;
+}
+
+p {
+    line-height: 1.6;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+.container, .container2, .container3, 
+.container4, .container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px; 
+    object-fit: contain;
+}
+
+
+
+.jen {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.jen:last-child {
+    margin-right: 0;
+}
+
+
+.c2{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(23, 23, 23);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.align{
+    text-align: center;
+}
+.img-size {
+    width: 120px;
+    height: 150px;
+}
+figure{
+    text-align: center;
+}
+figcaption{
+    margin-top: 10px;
+    color: #928e8e;
+}
+
+
+
+.fontstyle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #928e8e;
+    text-align: justify;
+    margin-top: 20px;
+}
+.img_float{
+    float: right;
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+}
